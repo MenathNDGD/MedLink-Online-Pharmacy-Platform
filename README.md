@@ -26,8 +26,10 @@ To set up the project locally, follow these steps:
 
 **1. Clone the repository:**
 
-```bash
 
+
+```bash
+https://github.com/MenathNDGD/MedLink-Online-Pharmacy-Platform.git
 ```
 
 **2. Install dependencies for the frontend and backend:**
