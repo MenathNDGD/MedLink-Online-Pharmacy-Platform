@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link,useNavigate} from 'react-router-dom';
-import logo from '../assets/Logo.svg';
+import logo from '../assets/logo.png';
 import { Toaster } from 'react-hot-toast';
 import { FaRegUser, FaBoxesStacked } from 'react-icons/fa6';
 import { FiTruck } from 'react-icons/fi';
@@ -107,7 +107,7 @@ export default function SideBar() {
     <div className='flex'>
       <Toaster />
       <div className='bg-dark-blue min-h-screen p-5 pt-8 min-w-max'>
-          <img src={logo} alt="logo" className='mx-auto' />
+          <img src={logo} alt="logo" className='w-30 h-20' />
         <ul className='pt-10'>
           {Menus.map((menu, index) => (
             <React.Fragment key={index}>
