@@ -1,4 +1,8 @@
-# KMP Pharmacy (Pharmacy Management System)
+# Community Project MedLink
+Your Trusted Online Pharmacy Platform
+
+
+
 
 <p><a  href="https://github.com/kavindu-dilshan"><img  src="https://skillicons.dev/icons?i=mongo,express,react,nodejs,vite,redux,tailwind,vscode,github"  width=350></a></p>
 
