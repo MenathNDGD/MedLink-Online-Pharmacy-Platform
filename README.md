@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# KMP Pharmacy (Pharmacy Management System)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p><a  href="https://github.com/kavindu-dilshan"><img  src="https://skillicons.dev/icons?i=mongo,express,react,nodejs,vite,redux,tailwind,vscode,github"  width=350></a></p>
 
-## Available Scripts
+This repository contains the source code for a Pharmacy Management System web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. The project utilizes Vite as the local development server.
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+<img src="https://firebasestorage.googleapis.com/v0/b/images-for-projects.appspot.com/o/KMP%20Pharmacy%2FKMP-Pharmacy-Home.png?alt=media&token=1c3d22ce-c6ac-437b-bf61-49a73fb645b6" alt="KMP-Pharmacy-Home">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Installation](#installation)
+- [Project Structure](#project-structure)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To set up the project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**1. Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/kavindu-dilshan/KMP-Pharmacy.git
+```
 
-### `npm run eject`
+**2. Install dependencies for the frontend and backend:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd KMP-Pharmacy/client
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd KMP-Pharmacy/server
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**3. Set up MongoDB:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Create a MongoDB database and configure the connection in server/utils/db.js.
 
-## Learn More
+**4. Run the development server:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd KMP-Pharmacy/client
+npm run dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+cd KMP-Pharmacy/server
+npm run dev
+```
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project Structure
 
-### Analyzing the Bundle Size
+The project structure is organized as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- <b>client:</b> Frontend React application.
+- <b>server:</b> Backend Express.js application.<br><br>
