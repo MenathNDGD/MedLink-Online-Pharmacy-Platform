@@ -27,16 +27,16 @@ To set up the project locally, follow these steps:
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/kavindu-dilshan/KMP-Pharmacy.git
+
 ```
 
 **2. Install dependencies for the frontend and backend:**
 
 ```bash
-cd KMP-Pharmacy/client
+cd client
 npm install
 
-cd KMP-Pharmacy/server
+cd server
 npm install
 ```
 
@@ -47,10 +47,10 @@ npm install
 **4. Run the development server:**
 
 ```bash
-cd KMP-Pharmacy/client
+cd client
 npm run dev
 
-cd KMP-Pharmacy/server
+cd server
 npm run dev
 ```
 
