@@ -2,8 +2,9 @@ import { FaChevronDown, FaList, FaSearch } from 'react-icons/fa';
 import { LuPhoneCall } from "react-icons/lu";
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
+import image from '../assets/logo.png';
 
-import mainlogo from '../assets/Main-Logo.svg';
+
 import { Link } from 'react-router-dom';
 
 export default function NavigationBar() {
@@ -26,7 +27,7 @@ export default function NavigationBar() {
         <div className='bg-paleblue'>
             <div className='flex justify-between items-center max-w-7xl mx-auto p-3'>
                 <div className='flex justify-normal'>
-                    <img src={mainlogo} alt="logo" className='' />
+                    <img src={image} alt="logo" className='w-20 h-33' />
                     <form  className='flex justify-end text-sm ml-10'>
                         <div className='relative'>
                             <input type='text' placeholder='Search for medication' className='bg-white border-2 border-light-blue rounded-md placeholder-gray focus:outline-none w-56 p-2 pl-10'/>
@@ -35,7 +36,7 @@ export default function NavigationBar() {
                         <button type='submit' className='bg-light-blue border-2 border-light-blue text-white rounded-md px-10 ml-2 hover:bg-blue hover:border-blue transition-all'>Search</button>
                     </form>
                 </div>
-                <button onClick={togglePopup} type='submit' class='bg-light-blue border-2 border-light-blue text-white rounded-md p-2 px-5 flex text-sm ml-2 hover:bg-blue hover:border-blue transition-all'>
+                <button onClick={togglePopup} type='submit' className='bg-light-blue border-2 border-light-blue text-white rounded-md p-2 px-5 flex text-sm ml-2 hover:bg-blue hover:border-blue transition-all'>
                     <LuPhoneCall className='mr-2 text-lg' />
                     Talk to pharmacists
                 </button>
@@ -55,7 +56,7 @@ export default function NavigationBar() {
                         <FaChevronDown className="ml-2 text-2xl"/>
                     </button>
                     {isOpen && (
-                        <div class="absolute z-10 mt-2 w-56 rounded-md shadow-lg bg-blue" role="menu">
+                        <div className="absolute z-10 mt-2 w-56 rounded-md shadow-lg bg-blue" role="menu">
                             <div className="" role="none">
                                 <Link to='/' className="block px-4 py-2 text-sm hover:bg-dark-blue border-b-2" role="menuitem">Home</Link>
                                 <Link to='/prescriptionform'  className="block px-4 py-2 text-sm hover:bg-dark-blue border-b-2" role="menuitem">Upload Prescription</Link>

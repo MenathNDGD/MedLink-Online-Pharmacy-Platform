@@ -1,7 +1,8 @@
-import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 
-export default function () {
+export default function Footer() {
+Footer.displayName = 'Footer';
+
   return (
 <div>
     <footer className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-dark-blue dark:text-white lg:text-left">
@@ -23,13 +24,13 @@ export default function () {
                         </li>
                     </ul>
                     <h5 className="mb-2 font-bold">Hotline</h5>
-                    <p className="mb-6 list-none">0115656994</p>
+                    <p className="mb-6 list-none">0115656998</p>
                     <h5 className="mb-2 font-bold">Email</h5>
-                    <p className="mb-0 list-none">sales@kmp.lk</p>
+                    <p className="mb-0 list-none"> MedLink.lk</p>
                 </div>
                 <div className="">
-                    <h5 className="mb-2 font-bold">KMP Pharmacy</h5>
-                    <p className="mb-6 list-none">159/5, Horana Road, Kottawa.</p>
+                    <h5 className="mb-2 font-bold">MedLink Pharmacy</h5>
+                    <p className="mb-6 list-none">159/5, Galle.</p>
                 </div>
                 <div className="">
                     <div className='flex gap-2 mb-2 place-items-center'>
@@ -44,12 +45,12 @@ export default function () {
                         <FaTwitter className='text-lg'/> 
                         <a href='#!' className="mb-0 list-none">Twitter</a>
                     </div>
-                    <h5 className="mb-2 font-bold">Colombo City Limits and Suburbs</h5>
+                    <h5 className="mb-2 font-bold">Galle City </h5>
                     <p className="mb-6 list-none">Delivery with in 24hrs subject to availability of stocks.</p>
                 </div>
             </div>
         </div>
-        <div className="w-full bg-blue p-4 text-center">© kmppharmacy.lk : All Rights Reserved.</div>
+        <div className="w-full bg-blue p-4 text-center">© MedLink : All Rights Reserved.</div>
     </footer>
 </div>
   )
