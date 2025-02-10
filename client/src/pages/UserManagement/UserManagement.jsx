@@ -153,12 +153,12 @@ export default function UserManagement() {
             <div className="flex gap-2 cursor-pointer">
               <img
                 className="w-12 h-12 border-2 border-white rounded-full"
-                src="https://avatars.githubusercontent.com/u/165867586?s=400&u=f3960158f67d1f2c9eee4a7bd8313d7b3100ad8e&v=4"
+                src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
                 alt="profile"
               />
               <div className="flex w-full flex-col gap-0.5">
                 <div className="flex items-center justify-between font-bold">
-                  <h1>Nipun Madutha</h1>
+                  <h1>MedLink</h1>
                 </div>
                 <p className="text-xs ">User Manager</p>
               </div>

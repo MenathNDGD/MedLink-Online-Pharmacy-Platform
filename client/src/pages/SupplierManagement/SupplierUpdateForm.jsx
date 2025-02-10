@@ -75,10 +75,10 @@ export default function SupplierUpdateForm() {
                     <div className='bg-paleblue justify-between flex px-10 py-8'>
                         <h1 className='text-4xl font-bold text-blue'>Update Supplier</h1>
                         <div className='flex gap-2'>
-                            <img className='w-12 h-12 border-2 border-white rounded-full' src="https://avatars.githubusercontent.com/u/165793855?v=4" alt="profile" />
+                            <img className='w-12 h-12 border-2 border-white rounded-full' src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="profile" />
                             <div className="flex w-full flex-col gap-0.5">
                                 <div className="flex items-center justify-between font-bold">
-                                    <h1>Shahaam Marzook</h1>
+                                    <h1>MedLink</h1>
                                 </div>
                                 <p className='text-xs '>Supplier Manager</p>
                             </div>
