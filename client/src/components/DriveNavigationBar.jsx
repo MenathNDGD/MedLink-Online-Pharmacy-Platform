@@ -2,9 +2,12 @@ import { FaChevronDown, FaList, FaSearch } from 'react-icons/fa';
 import { LuPhoneCall } from "react-icons/lu";
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
+//import assests
+
 
 import mainlogo from '../assets/Main-Logo.svg';
 import { Link } from 'react-router-dom';
+//export function
 
 export default function NavigationBar() {
    
