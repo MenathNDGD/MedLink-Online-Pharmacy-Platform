@@ -18,6 +18,13 @@ export default function EmployeeCreateForm() {
     gender: "",
   });
 
+
+  //update employe form
+  //update employe form
+  //update employe form
+  //update employe form
+  //update employe form
+  //update employe form
   const handleChange = (e) => {
     const { name, value, type, checked, id } = e.target;
     setValue((prevState) => ({
