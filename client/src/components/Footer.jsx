@@ -24,7 +24,7 @@ Footer.displayName = 'Footer';
                         </li>
                     </ul>
                     <h5 className="mb-2 font-bold">Hotline</h5>
-                    <p className="mb-6 list-none">0115656998</p>
+                    <p className="mb-6 list-none">0115566324</p>
                     <h5 className="mb-2 font-bold">Email</h5>
                     <p className="mb-0 list-none"> MedLink.lk</p>
                 </div>
