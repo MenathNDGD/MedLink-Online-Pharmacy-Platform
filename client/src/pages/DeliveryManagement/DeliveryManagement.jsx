@@ -11,7 +11,7 @@ export default function DeliveryManagement() {
   useEffect(() => {
     fetchTasks();
   }, []);
-
+//delivery function
   const fetchTasks = () => {
     fetch("http://localhost:3000/api/task/read")
       .then((response) => {

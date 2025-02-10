@@ -20,7 +20,7 @@ export default function EmployeeUpdateForm() {
         maritalStatus: "",
         gender: "",
     });
-
+    
     useEffect(() => {
         axios.get(`http://localhost:3000/api/employeeLeave/get/${id}`)
         .then(result => {
