@@ -185,11 +185,11 @@ export default function DeliveryTaskManagement() {
             <div className="flex gap-2 cursor-pointer">
               <img
                 className="w-12 h-12 border-2 border-white rounded-full"
-                src="https://avatars.githubusercontent.com/u/120442263?s=400&u=7520de9a5dfa3a68aa9b35c51ff4a845145e3d6d&v=4"
+                src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
               />
               <div className="flex w-full flex-col gap-0.5">
                 <div className="flex items-center justify-between font-bold">
-                  <h1>Dilmani Kiriella</h1>
+                  <h1>MedLink</h1>
                 </div>
                 <p className="text-xs ">Delivery Manager</p>
               </div>
