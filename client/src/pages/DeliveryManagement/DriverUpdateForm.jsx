@@ -120,10 +120,10 @@ const handleSubmit = (e) => {
                 <div className='bg-paleblue justify-between flex px-10 py-8'>
                     <h1 className='text-4xl font-bold text-blue'>Update Driver</h1>
                     <div className='flex gap-2'>
-                        <img className='w-12 h-12 border-2 border-white rounded-full' src="https://avatars.githubusercontent.com/u/120442263?s=400&u=7520de9a5dfa3a68aa9b35c51ff4a845145e3d6d&v=4" alt="tania andrew" />
+                        <img className='w-12 h-12 border-2 border-white rounded-full' src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="tania andrew" />
                         <div className="flex w-full flex-col gap-0.5">
                             <div className="flex items-center justify-between font-bold">
-                                <h1>Dilmani Kiriella</h1>
+                                <h1>MedLink</h1>
                             </div>
                             <p className='text-xs '>Delivery Manager</p>
                         </div>
@@ -142,7 +142,7 @@ const handleSubmit = (e) => {
                             <input type="text" placeholder='Enter driver license card number' id="driverLicense"  name="driverLicense" value={driverData.driverLicense} onChange={handleChange} className='border-2 border-gray outline-none rounded-md p-2 mb-4' required/>
 
                             <div className= 'flex gap-10'>
-                            <div class="flex flex-col justify-between"> 
+                            <div className="flex flex-col justify-between"> 
                             <label className='font-semibold text-black'>Vehicle Model</label>
                             <select id="vehicleModel" name="vehicleModel" value={driverData.vehicleModel} onChange={handleChange} className='border-2 border-gray outline-none rounded-md p-2 mb-4' required>
                                 <option value="Bike">Bike</option>
@@ -152,7 +152,7 @@ const handleSubmit = (e) => {
                             </select>
                             </div>
 
-                            <div class="flex flex-col justify-between">
+                            <div className="flex flex-col justify-between">
                             <label className='font-semibold text-black'>Availability</label>
                             <select id="availabilty" name="availabilty" value={driverData.availabilty} onChange={handleChange}className='border-2 border-gray outline-none rounded-md p-2 mb-4' required>
                                 <option value="Available">Available</option>
