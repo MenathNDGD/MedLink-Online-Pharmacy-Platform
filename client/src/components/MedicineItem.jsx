@@ -14,6 +14,7 @@ export default function MedicineItem({ item }) {
     <div className="flex flex-col">
       <div className='pl-2 flex flex-col gap-2 w-full '>
         <hr></hr>
+        //create med unit
         <MdAcUnit className='h-2 w-2 text-red-400'></MdAcUnit>
         <p className='text-xl font-semibold text-slate-700'>{item.Mname},  <p className=' text-light-blue'>Units:{item.Mquantity}</p></p>
         <img className='h-300 w-300' src={item.imageUrl} alt = "Image of medicine"/>

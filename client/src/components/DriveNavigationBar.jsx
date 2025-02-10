@@ -54,6 +54,7 @@ export default function NavigationBar() {
                         <p type="button" className=" w-full rounded-md bg-blue font-medium focus:outline-none" id="options-menu">Home</p>
                         <FaChevronDown className="ml-2 text-2xl"/>
                     </button>
+                    //update NavigationBar
                     {isOpen && (
                         <div class="absolute z-10 mt-2 w-56 rounded-md shadow-lg bg-blue" role="menu">
                             <div className="" role="none">
